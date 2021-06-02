@@ -1,6 +1,6 @@
 module.exports = {
     branches: "main",
-    repositoryUrl: "https://github.com/PostiDigital/omaposti-tracking-indexer",
+    repositoryUrl: "https://github.com/AratioD/demo-github-actions.git",
     plugins: [
         '@semantic-release/commit-analyzer',
         '@semantic-release/release-notes-generator',
