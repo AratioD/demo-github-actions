@@ -1,4 +1,4 @@
-name: Run All Tests
+name: Other Branch All Tests
 
 on: [push]
 
