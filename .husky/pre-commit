@@ -1,4 +1,13 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+echo
+echo
+echo '***************'
+python -V
+echo '***************'
 pytest
+echo '***************'
+echo "I like when cats sing"
+echo '***************'
+
