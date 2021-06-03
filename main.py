@@ -1,7 +1,9 @@
 def main():
     print("this is really working")
-    return 1 + 1
+    x = 1
+    y = 1
+    return x + y
 
 
 if __name__ == '__main__':
-    main()
+    print(main())
