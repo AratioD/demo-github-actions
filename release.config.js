@@ -1,10 +1,12 @@
 module.exports = {
     branches: "main",
     repositoryUrl: "https://github.com/AratioD/demo-github-actions",
-    plugins: [
+    "plugins": [
         "@semantic-release/commit-analyzer",
-        "@semantic-release/npm",
         "@semantic-release/release-notes-generator",
-        "@semantic-release/github"
+        "@semantic-release/npm",
+        ["@semantic-release/exec", {
+            "prepareCmd": "./update-version.sh ${nextRelease.version}",
+        }],
     ]
 }
