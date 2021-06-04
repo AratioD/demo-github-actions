@@ -5,6 +5,7 @@ module.exports = {
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
         "@semantic-release/npm",
+        "@semantic-release/exec",
         ["@semantic-release/exec", {
             "prepareCmd": "./update-version.sh ${nextRelease.version}",
         }],
