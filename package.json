@@ -1,17 +1,11 @@
 {
-  "scripts": {
-    "prepare": "husky install"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
-    "@commitlint/config-conventional": "^12.1.4",
-    "@semantic-release/github": "^7.2.3",
+  "dependencies": {
+    "commitlint": "^12.1.4",
     "husky": "^6.0.0",
     "semantic-release": "^17.4.3"
   },
-  "release": {
-    "branches": [
-      "main"
-    ]
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4"
   }
 }
