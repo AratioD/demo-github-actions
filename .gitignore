@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Intellj cache folder
+.idea/
+
+# Javascript stuff
+node_modules/
