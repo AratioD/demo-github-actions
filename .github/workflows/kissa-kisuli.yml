@@ -1,0 +1,19 @@
+name: Manual Trigger Example
+
+on:
+  workflow_dispatch:
+    branches:
+      - main
+    inputs:
+      message:
+        description: 'Enter a greeting message:'     # Description that will be shown in the UI
+        required: true                               # Indicates if the input is required or not
+        default: 'Hello, World!'                     # Default value if no input is provided
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Print the greeting message
+        run: echo "${{ github.event.inputs.message }}"
