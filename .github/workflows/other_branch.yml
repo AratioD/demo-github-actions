@@ -1,4 +1,4 @@
-name: Other Branch All Tests
+name: CI TESTS
 
 on: [push]
 
